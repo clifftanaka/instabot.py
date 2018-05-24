@@ -13,15 +13,15 @@ from instabot import InstaBot
 from unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
-    like_per_day=1000,
+    login="clifftanaka",
+    password="F2dcXQmp!!",
+    like_per_day=2000,
     comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute'],
+    tag_list=['筋トレ仲間募集中', '筋トレ好きと繋がりたい', '筋肉好きと繋がりたい', 'bestbodyjapan', 'summerstylesaward', 'ベストボディ', 'ベストボディジャパン', 'フィジーク', 'マッチョ', '美ボディ', 'ダイエット中', '運動', 'サマースタイルアワード', 'サマースタイル', 'ベンチプレス', 'なかやまきんに君', '春日', 'ライザップ', 'ボディメイク', '公開ダイエット', 'ダイエット仲間募集中', '筋トレ', 'トレーニング', 'ボディメイク', '腹筋', '減量', 'プロティン', 'ダイエット', 'タンパク質', '健康', '栄養', '筋肉'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,
-    follow_per_day=300,
+    follow_per_day=0,
     follow_time=1 * 60,
     unfollow_per_day=300,
     unfollow_break_min=15,
